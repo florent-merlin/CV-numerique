@@ -1,0 +1,42 @@
+* { margin:0px; padding: 0px; text-align: justify; box-sizing: border-box; font-family: Avenir, sans-serif;}
+
+
+header {
+    color: black;
+    margin-top: 50px;
+    text-align: center; 
+}
+.img {
+    display: flex;
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    margin-left: 50px;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+}
+.profile {
+    display: flex;
+    justify-content: center;
+    text-align:center
+}
+.softs-skills{
+    display:block;
+    text-align: auto;
+    justify-content: center;
+}
+.hard-skills{
+    display:block;
+    text-align: auto;
+    justify-content: center;
+}
+.mad-skills{
+    display:block;
+    text-align: auto;
+    justify-content: center;
+}
+
+
+    
