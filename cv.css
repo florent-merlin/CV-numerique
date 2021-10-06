@@ -33,9 +33,6 @@ header {
     text-align: auto;
     justify-content: center;
 }
-.contact{
-    background-color: gray;
-}
 .map, .phone, .mail, .linkedin{
     display: flex;
     height: 35px;
@@ -43,7 +40,15 @@ header {
     border-radius: 100%;
     margin-left: 50px;
 }
-
+.identity{
+    display: flex;
+}
+.contact-me{
+    background-color: gray;
+}
+.contact{
+    background-color: rgb(70, 158, 151);
+}
 
 
     
