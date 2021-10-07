@@ -1,0 +1,93 @@
+* {margin:0%; padding:0%; box-sizing: border-box; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif}
+
+@media only screen and (max-width: 600px){    
+
+header {
+    color: white;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./img/banner-Web-Development.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.me-container{
+    display: row;
+}
+.name {
+    padding: 50px;
+    text-align: center;
+}
+hr {
+    background-color: white;
+    width: 180px;
+    height: 3px;
+    justify-content: center;
+    margin: -25px auto 30px auto;   
+}
+#img{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+img{ 
+    height: 50%;    
+    width: 50%;
+    border-radius: 100%;    
+}
+.load-cv-pdf {
+    width:150px; 
+    height:30px; 
+    position:relative;
+    border-radius: 50px;
+    top: 100px;
+    left: 180px;
+}
+
+.container {
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:"adresse tel" "mail reseau";
+}
+
+.map, .phone, .e-mail, .linkedin{
+    display: block;
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;        
+}
+.contact{
+    background-color: rgb(70, 158, 151);
+    display: block;
+    flex-direction: column;
+}  
+
+.adresse { 
+    margin: 5px;
+    padding: 5px;
+    grid-area: adresse; 
+}
+
+.tel { 
+    margin: 5px;
+    padding: 5px;
+    grid-area: tel; 
+}
+
+.mail { 
+    margin: 5px;
+    padding: 5px;
+    grid-area: mail;  
+}
+
+.reseau {
+    margin: 5px;
+    padding: 5px;
+    grid-area: reseau;
+}
+  
+    
+}

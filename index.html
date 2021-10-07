@@ -6,35 +6,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Florent Merlin</title>
-    <link rel="stylesheet" href="cv.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header>
-        <h1>Florent Merlin</h1>
-        <h2>Concepteur Développeur d'application & site web</h2>
-    </header>
-
-    <section id="identitée">
-        <h4>A propos de moi</h4>
-        <div class="photo">
-            <img src="./img/Capture1.PNG" alt="Ma photo de profil" class="img">
+       
+    <header>   
+        <div class="me-container">
+            <h1 class="name">Florent Merlin</h1>
+                        
+            <hr>
+                
+            <h3>Concepteur Développeur d'application & site web</h3>
         </div>
-        <div class="profile">
-            <p>Ambitieux et extrêmement motivé, je souhaite continuer à
-                développer mes compétences professionnelles. Rigoureux et méthodique au travail, j'ai
-                confiance en mes capacités d'analyse et d'adaptation pour mener à bien les missions qui
-                me sont confiées. Ma forte sociabilité, ma capacité d'écoute et de compréhension me permettent de trouver et
-                d'apporter les solutions les plus appropriées aux besoin du client.
-            </p>
+        <div id="img">
+            <img src="./img/Capture1.PNG">    
         </div>
-        <br />
+        <button type="input" class="load-cv-pdf">telecharger CV</button>         
+    </header>        
+            
+    <section class="about-me">
+                <h4>A propos de moi</h4>
+                <p>
+                    Ambitieux et extrêmement motivé, je souhaite continuer à développer mes compétences professionnelles.
+                    <br>
+                    Rigoureux et méthodique au travail, j'ai confiance en mes capacités d'analyse et d'adaptation pour mener à bien les missions qui me sont confiées.
+                    <br>
+                    Ma forte sociabilité, ma capacité d'écoute et de compréhension me permettent de trouver et d'apporter les solutions les plus appropriées aux besoin du client.
+                </p>
+            </div>
+            <br />
     </section>
+
+    
     
     <section class="skills">
         <div class="hard-skills">
             <h4>Hard-skills</h4>
-                <ul>
+                <ul class="list-group">
                     <li>communication et en réseautage</li>
                     <li>Travaille en équipe ou de manière indépendante</li>
                     <li>Capacité à travailler sous pression</li>
@@ -51,7 +60,7 @@
                 </ul>
         </div>
         <br />
-        <div class="softs-skills co">
+        <div class="softs-skills">
             <h4>Soft-skills</h4>
                 <ul>
                     <li>Confiance en soi</li>
@@ -89,23 +98,26 @@
         </div>
         <br />
     </section>
-
-    <section class="contact-me">
-        <h4>Contact</h4>
-        <div class="contact">
-            <img src="./img/map.png" alt="adresse" class="map"><p>77, rue Roger Salengro,<br />
-            62230, OUTREAU</p>
-            <a href="mailto:florentmerlin.pro@gmail.com"><img src="./img/mail.jpg" alt="e-mail" class="mail"></a>&nbsp;florentmerlin.pro@gmail.com<br />
-            <a href="tel:0786943317"><img src="./img/phone.png" alt="phone" class="phone"></a>&nbsp;0786943317<br />
-            <a href="https://www.linkedin.com/in/florent-merlin-a2a020152"><img src="./img/linkedin.png" alt="linked" class="linkedin"></a>&nbsp;Linkedin
-        </div>
-    </section>
-
-
-
-
-
-        
+    
 </body>
+<footer>
+    <section class="contact">
+        <h3>Contact</h3>
+            <div class="container">
+                <div class="adresse"> 
+                    <img src="./img/map.png" alt="adresse" class="map"><span>77 rue Roger Salengro,<br />62230, OUTREAU</span>
+                </div>
+                <div class="tel">
+                    <a href="tel:0786943317"><img src="./img/phone.png" alt="phone" class="phone"></a><span >0786943317</span>
+                </div>
+                <div class="mail">
+                    <a href="mailto:florentmerlin.pro@gmail.com"><img src="./img/mail.jpg" alt="e-mail" class="e-mail"></a><span>florentmerlin.pro@gmail.com</span>
+                </div>
+                <div class="reseau">
+                    <a href="https://www.linkedin.com/in/florent-merlin-a2a020152"><img src="./img/linkedin.png" alt="linked" class="linkedin"></a><span>Linkedin</span>
+                </div>
+            </div>           
+    </section>
+</footer>
 
 </html>
