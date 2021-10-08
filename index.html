@@ -12,20 +12,29 @@
 <body>
        
     <header>   
-        <div class="me-container">
-            <h1 class="name">Florent Merlin</h1>
-                        
-            <hr>
-                
-            <h3>Concepteur Développeur d'application & site web</h3>
-        </div>
         <div id="img">
             <img src="./img/Capture1.PNG" alt="moi">    
         </div>
-        <input type="button" class="load-cv-pdf" value="telecharger CV en PDF">     
-    </header>        
-            
-    <section class="about-me">
+        <div class="me-container">
+            <h1 class="name">Florent Merlin</h1>          
+            <hr>   
+            <h3 class="work">Concepteur Développeur<br>d'application & site web</h3>
+            <input type="button" class="load-cv-pdf" value="Télécharger le CV en PDF">
+        </div>     
+    </header>   
+
+    <nav >
+        <!-- <h1>Florent Merlin</h1> -->
+        <ul class="navigation">
+          <li><a href="#about-me" class="nav-about">A PROPOS</a></li>
+          <li><a href="#hard-skills" class="nav-hskills">HARD-SKILLS</a></li>
+          <li><a href="#soft-skills" class="nav-sskills">SOFT-SKILLS</a></li>
+          <li><a href="#mad-skills" class="nav-mkills">MAD-SKILLS</a></li>
+          <li><a href="#contact" class="nav-contact">CONTACT</a></li>
+        </ul>
+    </nav>  
+
+    <section class="about-me" id="about-me">
         <h4>A propos de moi</h4>
         <p>
             Ambitieux et extrêmement motivé, je souhaite continuer à développer mes compétences professionnelles.
@@ -34,12 +43,11 @@
             <br>
             Ma forte sociabilité, ma capacité d'écoute et de compréhension me permettent de trouver et d'apporter les solutions les plus appropriées aux besoin du client.
         </p>
-    </section>
-
-    
+        
+    </section>    
     
     <section class="skills">
-        <div class="hard-skills">
+        <div class="hard-skills" id="hard-skills">
             <h4>Hard-skills</h4>
                 <ul class="list-group">
                     <li>communication et en réseautage</li>
@@ -57,8 +65,8 @@
                     <li>Réaliser une interface utilisateur avec une solution gestion de contenue</li>
                 </ul>
         </div>
-        <br />
-        <div class="softs-skills">
+        
+        <div class="soft-skills" id="soft-skills">
             <h4>Soft-skills</h4>
                 <ul>
                     <li>Confiance en soi</li>
@@ -80,8 +88,8 @@
                     <li>Négociation</li>
                 </ul>
         </div>
-        <br />
-        <div class="mad-skills">
+       
+        <div class="mad-skills" id="mad-skills">
             <h4>Mad-skills</h4>
                 <ul>
                     <li>Création d'un blog / site internet</li>
@@ -94,25 +102,24 @@
                     <li>Bénévolat</li>
                 </ul>
         </div>
-        <br />
     </section>
     
-    <section class="contact">
-    <h3>Contact</h3>
-        <div class="container">
-            <div class="adresse"> 
-                <img src="./img/map.png" alt="adresse" class="map"><span>77 rue Roger Salengro,<br />62230, OUTREAU</span>
+    <section class="contact" id="contact">
+        <h3>Contact</h3>
+            <div class="container">
+                <div class="adresse"> 
+                    <img src="./img/map.png" alt="adresse" class="map"><span>77 rue Roger Salengro,<br />62230, OUTREAU</span>
+                </div>
+                <div class="tel">
+                    <a href="tel:0786943317"><img src="./img/phone.png" alt="phone" class="phone"></a><span >0786943317</span>
+                </div>
+                <div class="mail">
+                    <a href="mailto:florentmerlin.pro@gmail.com"><img src="./img/mail.jpg" alt="e-mail" class="e-mail"></a><span>florentmerlin.pro@gmail.com</span>
+                </div>
+                <div class="reseau">
+                    <a href="https://www.linkedin.com/in/florent-merlin-a2a020152"><img src="./img/linkedin.png" alt="linked" class="linkedin"></a><span>Linkedin</span>
+                </div>
             </div>
-            <div class="tel">
-                <a href="tel:0786943317"><img src="./img/phone.png" alt="phone" class="phone"></a><span >0786943317</span>
-            </div>
-            <div class="mail">
-                <a href="mailto:florentmerlin.pro@gmail.com"><img src="./img/mail.jpg" alt="e-mail" class="e-mail"></a><span>florentmerlin.pro@gmail.com</span>
-            </div>
-            <div class="reseau">
-                <a href="https://www.linkedin.com/in/florent-merlin-a2a020152"><img src="./img/linkedin.png" alt="linked" class="linkedin"></a><span>Linkedin</span>
-            </div>
-        </div>
     </section>  
 </body>
 
